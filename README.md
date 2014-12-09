@@ -8,7 +8,7 @@ Sphero-carto est un composant du projet http://smag0.blogspot.fr/
 Sphero-carto pour android
 
 Sphero-carto est en deux parties :
-- UISmag --> l'application pour controler Sphero --> créé une application AsmagSphero.apk 
+- UISmag --> l'application pour controler Sphero --> créé une application AsmagSphero.apk https://github.com/scenaristeur/sphero-carto/blob/master/UiSmag/bin/UiSmag.apk
 Connectez votre sphero en bluetooth.
 
 utilisable en manuel ou en cliquant sur le bouton "Auto" , le bouton stop arrête le mode automatique.
