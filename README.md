@@ -1,21 +1,31 @@
 sphero-carto
 ============
 version en français plus bas ;-)
+
 English : 
-Using Sphero http://www.gosphero.com/fr/ to map an environment, a house, a room. Sphero-carto is a component of the project http://smag0.blogspot.fr/
+
+Using Sphero http://www.gosphero.com/fr/ for mapping an environment,
+  a house, a room.
+Sphero-carto is a component of the project http://smag0.blogspot.fr/
 
 Sphero-carto for android
 
 Sphero-carto is in two parts:
+- UISmag -> application to control Sphero -> created a AsmagSphero.apk https://github.com/scenaristeur/sphero-carto/blob/master/UiSmag/bin/UiSmag.apk Application
+Connect your sphero bluetooth.
 
-UISmag -> application to control Sphero -> created a AsmagSphero.apk implementation https://github.com/scenaristeur/sphero-carto/blob/master/UiSmag/bin/UiSmag.apk Connect your sphero bluetooth.
-used manually or by clicking the "Auto" button, the stop button stops the automatic mode. When you click on the bonton "Sleep" a "smag-sphero-last.txt" file is generated on the SD card in the "sphero-smag"
+used manually or by clicking the "Auto" button, the stop button stops the automatic mode.
+  When you click on the bonton "Sleep" a "smag-sphero-last.txt" file is generated on the SD card in the "sphero-smag"
 
-SmagSpheroCarto: to compile with APDE: https://play.google.com/store/apps/details?id=com.calsignlabs.apde (do not forget to add permissions (read_external_storage in "Sketch Properties" / "Sketch permissions "-> SmagSpheroCarto created an application that allows you to view the trace ds Sphero
-
+  - SmagSpheroCarto: to compile with APDE: https://play.google.com/store/apps/details?id=com.calsignlabs.apde
+(do not forget to add permissions (read_external_storage in "Sketch Properties" / "Sketch Permissions"
+-> SmagSpheroCarto created an application to view the trace ds Sphero
+ 
 TODO:
-manage standby phone
-correct errors on positions collision
+  - Managing standby phone
+  - Correct errors positions on collision
+  - Delete duplicate points
+  - Export to RDF for reuse in other applications
 
 ----------------------------------------------------------------------------------
 Francais : 
@@ -40,3 +50,5 @@ utilisable en manuel ou en cliquant sur le bouton "Auto" , le bouton stop arrêt
 TODO :
  - gérer la mise en veille du téléphone
  - corriger les erreurs de positions suite aux collisions
+ - supprimer les points en double
+ - export en RDF pour réutiliser dans d'autres applications
