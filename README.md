@@ -1,5 +1,24 @@
 sphero-carto
 ============
+version en français plus bas ;-)
+English : 
+Using Sphero http://www.gosphero.com/fr/ to map an environment, a house, a room. Sphero-carto is a component of the project http://smag0.blogspot.fr/
+
+Sphero-carto for android
+
+Sphero-carto is in two parts:
+
+UISmag -> application to control Sphero -> created a AsmagSphero.apk implementation https://github.com/scenaristeur/sphero-carto/blob/master/UiSmag/bin/UiSmag.apk Connect your sphero bluetooth.
+used manually or by clicking the "Auto" button, the stop button stops the automatic mode. When you click on the bonton "Sleep" a "smag-sphero-last.txt" file is generated on the SD card in the "sphero-smag"
+
+SmagSpheroCarto: to compile with APDE: https://play.google.com/store/apps/details?id=com.calsignlabs.apde (do not forget to add permissions (read_external_storage in "Sketch Properties" / "Sketch permissions "-> SmagSpheroCarto created an application that allows you to view the trace ds Sphero
+
+TODO:
+manage standby phone
+correct errors on positions collision
+
+----------------------------------------------------------------------------------
+Francais : 
 
 Utilisation de Sphero http://www.gosphero.com/fr/ pour cartographier un environnement,
  une maison, une pièce.
